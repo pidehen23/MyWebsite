@@ -1,0 +1,31 @@
+[v-cloak]{
+	display: none;
+}
+/*table{
+	border: 1px solid #E9E9E9;
+	border-collapse: collapse;
+	border-spacing: 0;
+	empty-cells: show;
+}
+th,td{
+	padding: 8px 16px;
+	border: 1px solid #E9E9E9;
+	text-align: left;
+}
+th{
+	background: #F7F7F7;
+	color: #5c6b77;
+	font-weight: 600;
+	white-space: nowrap;
+}*/
+/*button{
+	background: lightcoral;
+}*/
+/*.disable{
+	background: lightblue;
+	color: lightcoral;
+}*/
+strong{
+	font-size: 25px;
+	color: lightcoral;
+}

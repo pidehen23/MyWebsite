@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="registerModule">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="bootstrap-3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+		<script src="angular/angular.js" type="text/javascript"></script>
+		<script src="common.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div ng-controller="UserController">
+	    <div> 用户名：<input type="text" ng-model="uname" placeholder="用户名"/></div><br />
+	    <div>密码:<input type="password" ng-model="pword" placeholder="密码"/></div><br />
+	    <div><button ng-click="submit()">注册</button></div>
+	    </div>
+	</body>
+</html>

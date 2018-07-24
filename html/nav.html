@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7/css/bootstrap.min.css" />
+		<title>导航栏</title>
+		<style type="text/css">
+			body{
+				font-family: "microsoft yahei";
+			}
+			.head-top{
+				background-color: #5FA022;
+				padding: 1.0em 0;
+			}
+			.navbar-brand{
+				padding: 0 0;
+			}
+			.navbar-brand>img{
+				height: auto;
+				margin-right: 5px;
+				margin-top: 5px;
+				width: 250px;
+			}
+			.navbar-default{
+				padding: 1.5em 0;
+				background-color: #F2F0F1;
+				box-shadow: 12px -5px 39px -12px;		
+				-webkit-box-shadow: 12px -5px 39px -12px;
+			}
+			.navbar-default .navbar-nav>li a{
+				top: 10px;
+				padding: 0.5em 3em;
+				text-decoration: none;
+				font-weight: 600;
+				font-size: 1.2em;
+				color: #919191;
+			}
+			.navbar-default .navbar-nav > li >a:hover,
+			.navbar-default .navbar-nav >li >a:focus{
+				background-color: #D96B66;
+				color: white;
+				border-radius: 3px;
+				-webkit-border-radius: 3px;
+			}
+			.navbar-right >a{
+				color: #D96B66;
+			}
+			@media (max-width:970px ) {
+				.navbar-default .navbar-nav >li a{
+					font-size: 1.1em;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="head-top"></div>
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="container-fluid">
+					<div class="container">
+						<div class="navbar-header">
+							<a href="#" class="navbar-brand"><img src="../images/logo.png" alt="" /></a>
+							<button type="button" class="navbar-toggle collapsed" data-toggle = "collapse" data-target = "#navbar-collapse" aria-expanded="false">
+								<span class="sr-only">汉堡</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<div class="collapse navbar-collapse" id="navbar-collapse">
+							<ul class="nav navbar-nav">
+								<li><a href="#">主页</a></li>
+							    <li><a href="#">餐厅</a></li>
+							    <li><a href="#">健康</a></li>
+							    <li><a href="#">话题</a></li>
+							    <li><a href="#">联系我们</a></li>
+							</ul>
+							<div class="navbar-right">
+								<a href="#">
+									<h3><span>&yen;0.00<img src="../images/bag.png" alt=""/></span></h3>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		
+		<!--
+        	作者：陈家敬
+        	时间：2018-06-10
+        	描述：已编译的Bootstrap的插件
+        -->
+		<script src="../jquery/jquery-1.12.0.min.js"></script>
+		<script src="../bootstrap-3.3.7/js/bootstrap.min.js"></script>
+	</body>
+</html>

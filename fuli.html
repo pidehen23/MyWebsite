@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>福利</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<script src="jquery/jquery-3.3.1.min.js"></script>
+		<link href="bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="shortcut icon" href="title.ico" type="image/x.icon" />
+		<script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
+		<style>
+			@font-face {
+				font-family:Pinyon script;
+				src: url("../font-awesome/fonts/PinyonScript-Regular.ttf"));
+				font-weight: normal;
+				font-style: normal;
+			}
+			.about p{
+				text-indent: 2em;
+			}
+			.form #title{
+				color: lightcoral;
+				font-weight: bold;
+				font-size: 20px;
+				padding: 10px 10px 10px 0;
+			}
+			.nav-stacked{
+				top: 20px;
+				}
+				.detail-address-bar p:nth-child(odd){
+					margin-top: 20px;
+					font-size: 18px;
+					font-weight: bold;
+				}
+				.jumbotron h3{
+					font-family: 'Pinyon Script';
+					text-shadow: 5px 5px 0.3rem #84BAE8;
+					text-align: center;
+					color: lightcoral;
+					font-size: 60px;
+					font-weight: bold;
+					font-style: initial;
+				}
+		</style>
+	</head>
+	<body data-spy="scroll" data-target = "#menu">
+		<div class="jumbotron">
+			<h3>FOR MY LOVE,FOR MY DREAM</h3>
+			 <a href="index.html" class="btn btn-success">回到过去</a>
+			 <form class="navbar-form navbar-right" role="search">
+			 	<div class="form-group">
+			 		<input type="text" class="form-control" placeholder="ENTER A NAME" />
+			 	</div>
+			 	<button type="submit" class="btn btn-success">确认眼神</button>
+			 </form>
+		</div>
+		<ul class="breadcrumb container">
+				<li><a href="index.html">首页</a></li>
+				<li><a href="fuli.html">福利</a></li>
+		</ul>
+		<div class="container">
+			<div class="col-xs-12 col-md-2" id="menu">
+				<ul class="nav nav-pills nav-stacked" data-spy = "affix" data-offset-top = "380">
+					<li><a class="btn btn-success" href="#1" data-toggle = "collapse" data-parent = "#box">蘑菇街什么街</a></li>
+					<li><a class="btn btn-success" href="#2" data-toggle="collapse" data-parent = "#box">大事记</a></li>
+					<li><a class="btn btn-success" href="#3" data-toggle="collapse" data-parent = "#box">一起工作一起玩</a></li>
+					<li><a class="btn btn-success" href="#4" data-toggle="collapse" data-parent = "#box">我们这群人</a></li>
+					<li><a class="btn btn-success" href="#5" data-toggle = "collapse" data-parent = "#box">联系我们</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-12 col-md-10 panel-group" id="box">
+				<div class="panel panel-default">
+					<div id="1" class="panel-collapse collapse in">
+						<div class="panel-body">
+							<div class="form">
+								<p id="title"><span class="glyphicon glyphicon-bookmark"></span>&nbsp;&nbsp;公司简介</p>
+								<p><strong>蘑菇街是什么街</strong></p>
+								<div class="about">
+									<p>美丽联合集团是女性时尚媒体和时尚消费平台，通过整合现在已有的资源，包括电商、社区、红人、内容等等，来服务于不同的女性用户。</p>
+									<p>蘑菇街是集团旗下定位于年轻女性用户的时尚媒体与时尚消费类App，核心用户人群为 18-23 岁年轻女性用户。</p>
+									<p>2015年，蘑菇街以当红明星李易峰和“我的买手街”的品牌定位，成功树立了自身以买手精选为核心理念的差异化品牌形象。</p>
+									<p>2016年，迪丽热巴以首席体验官的身份代表广大用户加入蘑菇街，从而更好地为年轻女性用户提供从美妆、穿搭分享到时尚购物的一站式消费体验。</p>
+								</div>
+								<div class="img">
+									<img src="images/concat/mugo.jpg" class="img-responsive img-rounded" alt="" />
+								</div>
+								<div class="detail-address-bar">
+									<p>杭州战略中心：</p>
+									<p>地址：浙江省杭州市西湖区古墩路99号浙商财富中心1号楼</p>
+									<p>北京战略中心：：</p>
+									<p>地址：北京市朝阳区金辉大厦3层306</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div id="2" class="panel-collapse collapse">
+						<div class="panel-body">
+							<p>蘑菇街</p>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div id="3" class="panel-collapse collapse">
+						<div class="panel-body">
+							<div class="row">
+								<div class="col-md-12">
+									<h1>员工环境</h1>
+								</div>
+								<div class="row">
+									<div class="col-md-12 carousel slide" id="myBox" data-interval = "2000">
+										<ol class="carousel-indicators">
+											<li data-target="#myBox" data-slide-to = "0" class="active"></li>
+											<li data-target = "#myBox" data-slide-to = "1"></li>
+											<li data-target = "#myBox" data-slide-to = "2"></li>
+										</ol>
+										<div class="carousel-inner col-md-12">
+											<div class="item active">
+												<img src="images/mugu/mogu01.jpg" class="img-responsive" alt="" />
+											</div>
+											<div class="item">
+												<img src="images/mugu/mogu03.jpg" class="img-responsive" alt="" />
+											</div>
+											<div class="item">
+												<img src="images/mugu/mugo02.jpg" class="img-responsive" alt=""/>
+											</div>
+										</div>
+										<a href="#myBox" class="left carousel-control" data-slide = "prev">
+											<span class="glyphicon glyphicon-chevron-left"></span>
+										</a>
+										<a href="#myBox" class="right carousel-control" data-slide="next">
+											<span class="glyphicon glyphicon-chevron-right"></span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div id="4" class="panel-collapse collapse">
+						<div class="panel-body">
+							<p>蘑菇街</p>
+						</div>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div id="5" class="panel-collapse collapse">
+						<div class="panel-body">
+							<p>蘑菇街</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<span class="glyphicon glyphicon-paperclip"></span>
+	</body>
+</html>

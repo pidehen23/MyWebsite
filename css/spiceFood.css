@@ -1,0 +1,210 @@
+body,button,input,select,h3,h6{ font-family: "microsoft yahei";}
+/*header部分*/
+.head-top{
+	background-color: #5fa022;
+	padding: 0.8em 0;
+			}
+    .navbar-brand{
+    padding: 0 0;}
+			/*设置图片的大小和位置*/
+    .navbar-brand>img{
+				height: auto;
+				margin-right: 5px;
+				margin-top: 5px;
+				width: 250px;
+			}
+			.navbar-default{
+				padding: 1.5em 0;
+				background-color: #f2fof1;
+				box-shadow: 12px -5px 39px -12px;
+			}
+			/*设置导航栏中菜单a的样式*/
+			.navbar-default .navbar-nav>li a{
+				top: 10px;
+				padding: 0.5em 3em;
+				text-decoration: none;
+				font-weight: 600;
+				font-size: 1.2em;
+				color: #919191;
+			}
+			.navbar-default .navbar-nav>li>a:hover,
+			.navbar-default .navbar-nav>li>a:focus{
+				background-color: #D96B66;
+				color: white;
+				border-radius: 5px;
+				-webkit-border-radius: 5px;
+			}
+			.navbar-right>a{
+				color: #D96B66;
+			}
+			/*媒体查询：但视图小于970px，导航栏菜单字体变小，避免了换行的问题*/
+			@media (max-width: 970px ) {
+				.navbar-default .navbar-nav>li a{
+					font-size: 1.1em;
+				}
+			}
+/*header结束*/
+
+/*搜索模块*/
+.search{
+	background-image:url(../images/banner.jpg);
+	background-size: cover;
+	-webkit-background-size: cover;
+	min-height: 600px;
+	margin-top: -20px;
+	}
+  .reservation{
+				padding: 60px 60px;
+				width: 50%;
+				background-color: rgba(255,255,255,0.7);
+				margin: 0 auto;
+				margin-top: 15%;
+				font-weight: 500;
+				color: #f2f0f1;
+				font-size: 1.2em;
+				outline: none;
+	}
+	.btn{
+				width:  50%;
+				background-color: #D96B66;
+				color: #fff;
+				padding: 5px;
+				border-radius: 5px;
+				border: none;
+				-webkit-border-radius: 5px;
+			}
+			.form-control{
+				color: #8e908d;
+			}
+			.searchbtn{
+				text-align: center;
+			}
+			@media (max-width:768px ) {
+				.reservation{
+					padding: 20px 20px;
+					width: 90%;
+				}
+			}
+/*搜索模块结束*/
+/*热卖商品*/			
+.hot h3{
+				margin-top: -20px;
+				color: #1A1A1A;
+				font-size: 1.5em;
+				font-weight: 600;
+				margin: 0 0 1em;
+				padding: 0 0  0.5em;
+				border-bottom: 2px solid #eee;
+			}
+			.hot p{
+				color: #5FA022;
+				font-size: 1em;
+				font-weight: 400;
+                line-height: 1.8em;
+                margin: 1em 0;
+			}
+			.hot{
+				padding: 3em 0;
+				border: 1px solid #EEEEEE;
+				margin: 0 0;
+			}
+			.hot h6{
+				color: #C15162;
+				font-size: 1.5em;
+				font-weight: 400;
+				margin: 0.3em 0;
+			}
+			a.morebtn{
+				display: block;
+				font-size: 1em;
+				color: #fff;
+				text-decoration: none;
+				font-weight: 400;
+				background: #D96B66;
+				padding: 10px 18px;
+				transition:0.5s all ease;
+				-webkit-transition: 0.5s all ease;
+				border-radius: 5px;
+				-webkit-border-radius: 5px;
+			}
+			a.morebtn:hover{
+				background: #5FA022;
+			}
+			@media (max-width: 1024px) {
+				a.morebtn{
+					max-width: 410px;
+				}
+			}
+/*热卖商品结束*/	
+	
+/*特色推荐*/
+.navbar-brand>img{
+				height: auto;
+				width: 250px;
+				margin-right: 5px;
+				margin-top: 5px;
+			}
+			.nav-pills>li>a{
+				color: #8E908D;
+			}
+			.nav-pills>li.active>a,.nav-pills>li.active>a:focus,.nav-pills>li.active>a:hover{
+				color: #fff;
+				background-color: #5a9522;
+			}
+			.choose{
+				border: 1px solid silver;
+			}
+			.tab-content{
+				margin: 5px;
+				text-align: center;
+			}
+			
+/*特色推荐结束*/
+/*轮播图*/
+.pic{
+	margin: 0 auto;
+	width: 800px;
+	padding:25px;
+}
+	.carousel{
+			background-color: white;
+	}
+	@media (max-width:992px ) {
+		.pic{
+		width: 415px;
+		}
+	}
+/*轮播结束*/		
+/*footer部分*/
+.footer{
+	padding: 1em 0;
+    background-color: #D96B66;
+}
+.footer p{
+	color: #fff;
+	font-size: 1em;
+	line-height: 1.8em;
+	vertical-align: middle;
+	margin: 0.4em 0;
+	}
+.footer p>a{
+    color: #fff;
+	text-decoration: none;
+}
+.footer-right ul{
+    padding: 0;
+}
+.footer-right li{
+	display: inline-block;
+	margin: 0 1em;
+	}
+.footer-left{
+	float: left;
+}
+.footer-right{
+   float: right;
+}
+.glyphicon{
+	font-size: 1.2em;
+	color: #F2F0F1;
+}

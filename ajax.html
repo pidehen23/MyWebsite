@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script src="jquery/jquery-3.3.1.min.js" type="text/javascript"></script>
+		<title></title>
+		<script>
+			$(document).ready(function(){
+		$("#button").click(function(){
+			$.get("index.php",{username:$("#username").val(),content:$("#content").val()},function(data,textStatus){
+				 $("#responseText").html("用户名："+data.username+"<br/>留言内容："+data.content);     // 将用户提交的用户名与留言内容显示
+			},"json");
+		})
+	})
+		</script>
+	</head>
+	<body>
+		<form name="form" action="get">
+	用户名：<input type="text" id="username" /><br/><br/>
+	内容：<textarea id="content"></textarea><br/><br/>
+	<input type="button" id="button" value="提交"/><br/><br/>
+</form>
+<div id="responseText"></div>
+	</body>
+</html>

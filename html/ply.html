@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			.view{
+				width: 200px;
+				height: 200px;
+				border: 1px solid lightblue;
+				position: relative;
+				overflow: hidden;
+				float: left;
+			}
+			.hover{
+				width: 200px;
+				height: 0;
+				background-color: rgba(0,0,0,0.5);
+				position: absolute;
+				top: 40px;
+				left: 0;
+				text-align: center;
+				color: #FFFFFF;
+				transform: rotate(55deg);
+				-webkit-transform: rotate(55deg);
+				transition: all 0.5s;
+				-webkit-transition: all 0.5s;
+				overflow: hidden;
+				z-index: 4000; 
+			}
+			.view:hover{
+				top: 5px;
+				box-shadow: 0 0 15px lightblue;
+			}
+			.hover h3{
+				color: #FFFFFF;
+				border-bottom: 2px solid rgba(44,44,66,0.5);
+				padding-bottom: 10px;
+			}
+			.view:hover .hover{
+				transform: rotate(0deg);
+				-webkit-transform: rotate(0deg);
+				height: 120px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="view">
+			<img src="images/1.jpg" />
+			<div class="hover">
+				<h3>多肉植物</h3>
+				<p>多肉植物身体，大哥刚是就感觉桑</p>
+			</div>
+		</div>
+	</body>
+</html>

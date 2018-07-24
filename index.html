@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="keywords" content="Spice Food" />
+		<meta name="description" content="一个富有活力的餐厅" />
+		<meta name="author" content="chenjiajing" />
+		<meta name="copyright" content="本站所有教程均为原创，版权所有，禁止转载。否则将追究法律责任." />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title></title>
+		<link rel="shortcut icon" href="title.ico" type="image/x.icon" />
+		<link href="bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet"/>	
+		<link href="css/spiceFood.css" rel="stylesheet" type="text/css" />
+		
+    </head>
+	<body>
+		<header>
+			<div class="head-top"></div>
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="container">
+						<div class="navbar-header">
+							<a href="#" class="navbar-brand"><img src="images/logo.png" alt=""/></a>
+							<button type="button" class="navbar-toggle collapsed" data-toggle = "collapse" data-target="#navbar-collapse" aria-expanded="false"	>
+								<span class="sr-only">汉堡按钮</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<!--导航链接-->
+						<div class="collapse navbar-collapse" id="navbar-collapse">
+							<ul class="nav navbar-nav">
+								<li><a href="index.html">主页</a></li>
+								<li class="dropdown"><a href="#" data-toggle = "dropdown">餐厅 <b class="caret"></b></a>
+									<ul class="dropdown-menu">
+										<li class="divider"></li>
+										<li><a href="#">附近餐厅</a></li>
+										<li class="divider"></li>
+										<li><a href="#">推荐餐厅</a></li>
+										<li class="divider"></li>
+										<li><a href="#">顶级餐厅</a></li>
+										<li><a href="car.html">购物车</a></li>
+									</ul>
+								</li>
+								<li class="dropdown"><a href="#" data-toggle = "dropdown">健康<b class="caret"></b></a>
+									<ul class="dropdown-menu">
+										<li class="divider"></li>
+										<li><a href="#">饮食健康</a></li>
+										<li class="divider"></li>
+										<li><a href="#">运动健康</a></li>
+										<li class="divider"></li>
+										<li><a href="#">健康小知识</a></li>
+									</ul>
+								</li>
+								<li class="dropdown"><a href="#" data-toggle = "dropdown">话题<b class="caret"></b></a>
+									<ul class="dropdown-menu">
+										<li class="divider"></li>
+										<li><a href="scrollspy.html">美女</a></li>
+										<li class="divider"></li>
+										<li><a href="fuli.html">福利</a></li>
+										<li class="divider"></li>
+										<li><a href="panelgroup.html">搞基</a></li>
+									</ul>
+								</li>
+								<li  class="dropdown"><a href="#" data-toggle="dropdown">联系我们<b class="caret"></b></a>
+									<ul class="dropdown-menu">
+										<li class="divider"></li>
+										<li><a href="#myWeixin" data-toggle = "modal" data-backdrop = "false" data-keyboard = "false">微信</a></li>
+										<li class="divider"></li>
+										<li><a href="#myWeibo" data-toggle = "modal" data-backdrop = "false" data-keyboard="false">微博</a></li>
+										<li class="divider"></li>
+										<li><a href="#myPhone"  data-toggle = "modal" data-backdrop = "false" data-keyboard = "false">电话</a></li>	
+										<li class="divider"></li>
+										<li><a href="jl2.html" target="_blank">关于我</a></li>
+									</ul>
+									<div id="myPhone" class="modal fade"  role="dialog" aria-labelledby="phone-table1" aria-hidden="true" >
+												<div class="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<button class="close" data-dismiss = "modal">&times;</button>
+															<h3 id="phone-table1">我的电话</h3>
+														</div>
+														<div class="modal-body">
+															<p style="color: red;"><strong>15800721250</strong><i style="color: lightsteelblue;">(陈家敬)</i></p>
+														</div>
+														<div class="modal-footer">
+															<button class="close btn-info" data-dismiss = "modal" >关闭</button>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div id="myWeixin" class="modal fade"  role="dialog" aria-labelledby="weixin-table1" aria-hidden="true" >
+												<div class="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<button class="close" data-dismiss = "modal">&times;</button>
+															<h3 id="weixin-table1">我的微信</h3>
+														</div>
+														<div class="modal-body">
+															<p style="text-align: center;"><img src="images/concat/weixin.jpg" class="img-responsive" style="width: 200px;text-align: center;"/></p>
+														</div>
+														<div class="modal-footer">
+															<button class="close btn-info" data-dismiss = "modal" >关闭</button>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div id="myWeibo" class="modal fade"  role="dialog" aria-labelledby="weibo-table1" aria-hidden="true" >
+												<div class="modal-dialog">
+													<div class="modal-content">
+														<div class="modal-header">
+															<button class="close" data-dismiss = "modal">&times;</button>
+															<h3 id="weibo-table1">我的微博</h3>
+														</div>
+														<div class="modal-body">
+															<p style="text-align: center;"><img src="images/concat/weibo.jpg" class="img-responsive" style="width: 200px;text-align: center;"/></p>
+														</div>
+														<div class="modal-footer">
+															<button class="close btn-info" data-dismiss = "modal" >关闭</button>
+														</div>
+													</div>
+												</div>
+											</div>
+								</li>
+							</ul>							
+							<div class="navbar-right">
+								<a href="#">
+									<h3><span>￥0.00 <img src="images/bag.png" alt=""/></span></h3>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!--搜索区域-->
+		<div class="search">
+			<div class="container">
+				<div class="reservation">
+					<form class="form-horizontal" rol="form">
+						<div class="form-group">
+						<div class="col-sm-12 col-md-12 col-lg-12">
+							<input type="text" class="form-control input-lg" id="name" placeholder="输入餐厅的名称" />
+						</div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-12 col-md-12 col-lg-12">
+								<select id="country" class="form-control input-lg">
+									<option value="null">请选择城市</option>
+									<option value="bj">北京</option>
+									<option value="sh">上海</option>
+									<option value="sz">深圳</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="searchbtn">
+								<button type="submit" class="btn btn-success btn-lg">
+									<img src="images/search-icon.png"/>&nbsp;搜索
+								</button>							
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="hot">
+			<div class="container">
+				<div class="col-md-4">
+					<h3>米西奶昔煎饼</h3>
+					<img src="images/4.jpg" class="img-responsive" alt="" />
+					<div>
+						<p class="glyphicon glyphicon-thumbs-up">两种口味可供选择</p>
+						<div class="cur">
+							<span><a class="morebtn" href="#">添加到购物车</a></span>
+							<span><h6>一口价:￥45.00</h6></span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<h3>蒙特西大虾</h3>
+					<img src="images/1.jpg" class="img-responsive" alt="蒙特西大虾" />
+					<div>
+						<p class="glyphicon glyphicon-thumbs-up">两种口味可供选择</p>
+						<div class="cur">
+							<span><a href="#" class="morebtn">添加到购物车</a></span>
+							<span><h6>一口价:￥55.00</h6></span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<h3>香酥鸡排</h3>
+					<img src="images/3.jpg" class="img-responsive" alt="香酥鸡排" />
+					<div>
+						<p class="glyphicon glyphicon-thumbs-up">两种口味可供选择</p>
+						<div class="cur">
+							<span><a href="#" class="morebtn">添加到购物车</a></span>
+							<span><h6>一口价:￥65.00</h6></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+		   <div class="choose">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="navbar-header hidden-xs">
+							<a class="navbar-brand" href="#">
+								<img src="images/title.jpg" sizes="100px" />
+							</a>
+						</div>
+						<ul class="nav nav-pills navbar-right" role="tablist" style="margin-right: 0;">
+							<li role="presentation" class="active"><a href="#dishes" role="tab" data-toggle = "tab">菜品</a></li>
+							<li role="presentation"><a href="#drink" role="tab" data-toggle = "tab">饮品</a></li>
+							<li role="presentation"><a href="#staple" role="tab" data-toggle = "tab">主食</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="tab-content">
+							<!--菜品-->
+							<div role="tabpanel" class="tab-pane active" id="dishes">
+								<div class="col-md-2 col-sm-4 col-xs-6">
+									<img src="images/products/small01.jpg" />
+									<p>菜品</p>
+									<p>&yen;145.0</p>
+								</div>
+								<div class="col-md-2 col-sm-4 col-xs-6">
+									<img src="images/products/small02.jpg" />
+									<p>菜品</p>
+									<p>&yen;165.0</p>
+								</div>
+								<div class="col-md-2 col-sm-4 col-xs-6">
+									<img src="images/products/small04.jpg" />
+									<p>菜品</p>
+									<p>&yen;165.0</p>
+								</div>
+								<div class="col-md-2 col-sm-4 col-xs-6">
+									<img src="images/products/small02.jpg" />
+									<p>菜品</p>
+									<p>&yen;165.0</p>
+								</div>
+								<div class="col-md-2 col-sm-4 col-xs-6">
+									<img src="images/products/small07.jpg" />
+									<p>菜品</p>
+									<p>&yen;165.0</p>
+								</div>
+								<div class="col-md-2 col-sm-4 col-xs-6">
+									<img src="images/products/small08.jpg" />
+									<p>菜品</p>
+									<p>&yen;165.0</p>
+								</div>
+							</div>
+							<!--饮品-->
+							<div role="tabpanel" class="tab-pane" id="drink">
+								<div class="product-item col-md-2 col-sm-4 col-xs-6">
+									<img src="images/products/small03.jpg" />
+									<p>饮品</p>
+									<p>&yen;98.0</p>
+								</div>
+								<div class="product-item col-md-2 col-sm-4 col-xs-6">
+									<img src="images/products/small03.jpg" />
+									<p>饮品</p>
+									<p>&yen;98.0</p>
+								</div>
+							</div>
+						    <!--主食-->
+						    <div role="tabpanel" class="tab-pane" id="staple">
+						    	<div class="product-item col-md-2 col-sm-4 col-xs-6">
+						    		<img src="images/products/small05.jpg" />
+						    		<p>主食</p>
+						    		<p>&yen;56.0</p>
+						    	</div>
+						    	<div class="product-item col-md-2 col-sm-4 col-xs-6">
+						    		<img src="images/products/small06.jpg" />
+						    		<p>主食</p>
+						    		<p>&yen;56.0</p>
+						    	</div>
+						    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--轮播广告-->
+		<div class="container hidden-xs">
+			<div id="myCarousel" class="carousel slide" data-ride = "carousel" data-interval = "2000">
+				<!--设置轮播控制器-->
+				<ol class="carousel-indicators">
+					<li class="active" data-target = "#myCarousel" data-slide-to = "0"></li>
+					<li data-target="#myCarousel"  data-slide-to = "1"></li>
+					<li data-target = "#myCarousel" data-slide-to = "2"></li>
+				</ol>
+				<!--轮播项目-->
+				<div class="carousel-inner">
+					<div class="item active">
+						<div class="pic">
+							<img src="images/8p.jpg" alt=""/>
+							<img src="images/4p.jpg" alt="" />
+							<img src="images/5p.jpg" alt=""/>
+							<img src="images/6p.jpg" alt="" />
+							<img src="images/2p.jpg" alt="" />
+							<img src="images/3p.png" alt="" />
+						</div>
+					</div>
+					<div class="item">
+						<div class="pic">
+							<img src="images/2p.jpg" alt=""/>
+							<img src="images/3p.jpg" alt="" />
+							<img src="images/4p.png" alt="" />
+							<img src="images/5p.jpg" alt="" />
+							<img src="images/6p.jpg" alt=""/>
+							<img src="images/7p.jpg" alt="" />
+						</div>						
+					</div>
+				    <div class="item">
+				    	<div class="pic">
+				    		<img src="images/8p.jpg" alt=""/>
+				    		<img src="images/1p.jpg" alt="" />
+							<img src="images/2p.jpg" alt=""/>
+							<img src="images/3p.jpg" alt="" />
+							<img src="images/4p.png" alt="" />
+							<img src="images/5p.jpg" alt="" />
+						</div>	
+				    </div>
+				</div>
+				<!--轮播导航-->
+				<a class="carousel-control left" href="#myCarousel" role="button" data-slide = "prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class="carousel-control right" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+				<!--<a class="carousel-control left" href="#myCarousel" role="button" data-slide = "prev">&lsaquo;</a>
+				<a class="carousel-control right" href="#myCarousel" role="button" data-slide = "next">&rsaquo;</a>-->
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-left">
+					<p>Copyrights &copy; 2018 Bootstrap  响应式餐饮网站 | 版权所有<a href="#"></a></p>
+				</div>
+				<div class="footer-right">
+					<ul>
+						<li><a href="#"><i class="glyphicon glyphicon-phone-alt" title="联系电话" data-content="15800721250">&nbsp;联系我们</i></a></li>
+						<li><a href="#"><i class="glyphicon glyphicon-map-marker">&nbsp;我的地址</i></a></li>
+						<li><a href="#"><i class="glyphicon glyphicon-question-sign">&nbsp;服务声明</i></a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<script src="jquery/jquery-3.3.1.min.js"></script>
+		<script src="bootstrap-3.3.7/js/bootstrap.min.js"></script>
+		<script>
+			$(function(){
+				$(".glyphicon-phone-alt ").popover({
+					html:true,
+					title:"联系电话",
+					content:"15800721250",
+					placement:"top",
+					trigger:"hover",
+					delay:{show:1000,hide:500}
+				});
+			})
+		</script>
+		<script type="text/javascript">
+        //定义全局变量，用于标识
+        var flag = 0;
+        window.onload = function () {
+            //定时器
+            setInterval("titleChange()", 1000);
+        }
+        //定义函数
+        function titleChange() {
+            if(flag==0)
+            {
+                document.title = "★☆★JiaJingChen站点★☆★";
+                flag = 1;
+            }
+            else
+            {
+                document.title = "☆★☆JiaJingChen站点☆★☆";
+                flag = 0;
+            }
+        }
+    </script>
+	</body>
+</html>
