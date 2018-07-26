@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+		<title>火箭少女101组合</title>
+        <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.2/css/bootstrap.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+        <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&ak=m4EbblcnKqNS9S4Ot5p1dYAqrWZpBopQ"></script>
+        <style>
+        	body{
+        		padding-top: 100px;
+        	}
+        	.carousel-inner img {
+               width: 100%;
+                height: 100%;
+            }
+            #dropdown-menu{
+            	background-color: rgba(0,0,0,0.8) !important;
+          	    
+            }
+            #dropdown-menu a{        	
+            	color: lightpink !important;
+            }
+            #dropdown-menu a:hover{
+            	font-weight: bold;
+            	background-color: rgba(0,0,0,0.9);
+            }
+            .navbar{
+            	background-color: rgba(0,0,0,0.7) !important;           	
+            }
+            .navbar ul li a{
+            	font-family: arial;
+            	font-size: 1.4rem;
+            	color: lightpink !important;
+            }
+            .navbar ul li a:hover{
+            	font-weight: bold;
+            	background-color: rgba(0,0,0,0.9)
+            }
+        </style>
+	</head>
+	<body id="myPage" data-spy = "scroll" data-target = ".navbar" data-offset = "50">
+		<nav class="navbar navbar-expand-sm fixed-top  bg-dark navbar-dark">
+			<div class="container">
+			<a class="navbar-brand" href="#home" style="color: lightpink;"><i class="fas fa-rocket fa-3x text-danger"></i><em>101</em></a>
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="myNavbar">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="#home">主页</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#band">成员</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#tour">巡演</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">联系</a>
+					</li>
+					<li class="nav-item dropdown bg-dark">
+						<a class="nav-link dropdown-toggle" href="#" data-toggle = "dropdown" >
+						     更多
+						</a>
+						<div class="dropdown-menu" id="dropdown-menu">
+							<div class="dropdown-header">作品</div>
+							<a class="dropdown-item" href="chenjiajing.xyz/">单曲</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="https://y.qq.com/n/yqq/singer/000Rh4DK4MmxIU.html" target="_blank">专辑</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://baike.baidu.com/item/%E7%81%AB%E7%AE%AD%E5%B0%91%E5%A5%B3101"><i class="fas fa-search"></i></a>
+					</li>
+				</ul>
+			</div>
+			</div>
+		</nav>
+		<!--第一屏-->
+		<div id="home" class="container-fluid" style="padding: 80px 120px;margin-top: 3rem;margin-bottom: 3rem;">
+			<div id="myCarousel" class="carousel slide" data-ride = "carousel" data-interval = "2000">
+				<!--计数器-->
+				<ul class="carousel-indicators">
+					<li data-target = "#myCarousel" data-slide-to = "0"></li>
+					<li data-target = "#myCarousel" data-slide-to = "1"></li>
+					<li data-target = "#myCarousel" data-slide-to = "2"></li>
+				</ul>
+				<!--轮播图片-->
+				<div class="carousel-inner" role="listbox">
+					<div class="carousel-item active">
+						<img src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike116%2C5%2C5%2C116%2C38/sign=ddb6add54d34970a537e187df4a3baad/d788d43f8794a4c2087b82d102f41bd5ac6e39eb.jpg" class="img-fluid" alt="火箭101少女" />
+						<div class="carousel-caption">
+							<h3></h3>
+							<p></p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike116%2C5%2C5%2C116%2C38/sign=ddb6add54d34970a537e187df4a3baad/d788d43f8794a4c2087b82d102f41bd5ac6e39eb.jpg" />
+						<div class="carousel-caption">
+							<h3></h3>
+							<p></p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="https://gss1.bdstatic.com/-vo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike116%2C5%2C5%2C116%2C38/sign=ddb6add54d34970a537e187df4a3baad/d788d43f8794a4c2087b82d102f41bd5ac6e39eb.jpg" />
+						<div class="carousel-caption">
+							<h3></h3>
+							<p></p>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#myCarousel" data-slide = "prev">
+					<span class="carousel-control-prev-icon bg-secondary"></span>
+				</a>
+				<a class="carousel-control-next" href="#myCarousel" data-slide = "next">
+					<span class="carousel-control-next-icon bg-secondary"></span>
+				</a>
+			</div>
+		</div>
+		
+		<div class="container  text-center bg-light" id="band" style="padding: 80px 120px;">
+			<h4 class="text-info">火箭少女101成员</h4>
+			<p><em class="text-danger">爱音乐,爱生活</em></p>
+			<p>火箭少女101是由哇唧唧哇娱乐于2018年推出的中国内地女子演唱组合，由<a href="https://baike.baidu.com/item/%E5%AD%9F%E7%BE%8E%E5%B2%90/19887545?fr=aladdin&fromtitle=%E8%B5%B5%E7%BE%8E%E5%B2%90&fromid=19429159" target="_blank">孟美岐</a>、<a target="_blank" href="https://baike.baidu.com/item/%E5%90%B4%E5%AE%A3%E4%BB%AA/19876998?fr=aladdin">吴宣仪</a>、<a href="#">杨超越</a>、<a href="#">段奥娟</a>、<a href="#">Yamy</a>、<a href="#">赖美云</a>、<a href="#">张紫宁</a>、<a href="#">杨芸晴</a>、<a href="#">李紫婷</a>、<a href="#">傅菁</a>、<a href="#">徐梦洁</a>十一位成员组成</p>
+			<p>2018年6月23日，11位成员在腾讯视频女团青春成长节目《创造101》中获胜，成功获得成团资格 ;同日，发行单曲《Rocket Girls》;24日，通过湖南卫视《快乐中国毕业歌会》完成成团首秀 ;7月12日，首部团体综艺节目《火箭少女101研究所》首播 ;27日，为电影《西虹市首富》演唱插曲《卡路里》</p>
+			<div class="row" style="padding-top: 20px;">
+				<div class="col-sm-3 text-center">
+					<p><strong class="text-danger">孟美岐</strong></p>
+					<img src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=3340214834,3980621366&fm=58" class="rounded-circle img-fluid" alt="孟美岐" />
+				</div>
+				<div class="col-sm-3">
+					<p><strong class="text-danger">吴宣仪</strong></p>
+					<img src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=2940010520,4107223211&fm=58" class="rounded-circle img-fluid" alt="吴宣仪" />
+				</div>
+				<div class="col-sm-3">
+					<p><strong class="text-danger">孟美岐</strong></p>
+					<img src="https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=2692313364,3493718313&fm=58" class="rounded-circle img-fluid" alt="杨超越" />
+				</div>
+				<div class="col-sm-3">
+					<p><strong class="text-danger">段奥娟</strong></p>
+					<img src="https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=3810741918,3887860108&fm=58" class="rounded-circle img-fluid" alt="段奥娟" />
+				</div>
+			</div>
+			<div class="row" style="padding-top: 20px;">
+				<div class="col-sm-3 text-center">
+					<p><strong class="text-danger">Yamy</strong></p>
+					<img src="https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=2988822111,3606570972&fm=58" class="rounded-circle img-fluid" alt="Yamy" />
+				</div>
+				<div class="col-sm-3">
+					<p><strong class="text-danger text-center">赖美云</strong></p>
+					<img src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=3358128754,4077703693&fm=58" class="rounded-circle img-fluid" alt="赖美云" />
+				</div>
+				<div class="col-sm-3">
+					<p><strong class="text-danger text-lg-center">张紫宁</strong></p>
+					<img src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=252668134,450554481&fm=58" class="rounded-circle img-fluid" alt="张紫宁" />
+				</div>
+				<div class="col-sm-3">
+					<p><strong class="text-danger text-center">李紫婷</strong></p>
+					<img src="https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=3071907945,3723017105&fm=58" class="rounded-circle img-fluid" alt="李紫婷" />
+				</div>
+			</div>
+			<div class="row" style="padding-top: 20px;">
+				<div class="col-sm-3 text-center">
+					<p><strong class="text-danger">傅菁</strong></p>
+					<img src="https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=513603737,1166201817&fm=58" class="rounded-circle img-fluid" alt="傅菁" />
+				</div>
+				<div class="col-sm-3">
+					<p><strong class="text-danger text-center">徐梦洁</strong></p>
+					<img src="https://ss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=2830347202,3692586073&fm=58" class="rounded-circle img-fluid" alt="徐梦洁" />
+				</div>
+			</div>
+		</div>
+		<!--第三屏-->
+		<div class="container text-center bg-light" id="tour" style="margin-top: 2rem;padding: 2rem 2rem;">
+		  	<h3 class="text-center text-danger">巡演日期</h3><br />
+		  	<p><em>我们将会演绎自己的音乐。</em></p>
+		  	<div class="table-responsive">
+		  		<table class="table table-striped ">
+		  			<thead>
+		  			<tr>
+		  				<th>巡演日期</th>
+		  				<th>节目名称</th>
+		  				<th>参加人员</th>
+		  			</tr>
+		  			</thead>
+		  			<tbody>
+		  				<tr>
+		  					<td>7月11日</td>
+		  					<td>火箭少女101成团发布会</td>
+		  					<td>全员参加&nbsp;<span class="badge badge-info">已定行程</span></td>
+		  				</tr>
+		  				<tr>
+		  					<td>7月21日</td>
+		  					<td>美拍盛典</td>
+		  					<td>全员参加&nbsp;<span class="badge badge-info">已定行程</span></td>
+		  				</tr>
+		  				<tr>
+		  					<td>7月21日</td>
+		  					<td>美拍盛典</td>
+		  					<td>全员参加&nbsp;<span class="badge badge-info">已定行程</span></td>
+		  				</tr>
+		  				<tr>
+		  					<td>7月29日</td>
+		  					<td>星空下的演讲</td>
+		  					<td>一位成员&nbsp;
+		  						<span class="badge badge-info">已定行程</span></td>
+		  				</tr>
+		  				<tr>
+		  					<td>8月17日</td>
+		  					<td>明日之子</td>
+		  					<td>全员参加<span class="badge badge-info">已定行程</span></td>
+		  				</tr>
+		  			</tbody>
+		  		</table>
+		  	</div>
+		  	<div class="row text-center" id="price">
+		  		<div class="col-md-4">
+		  			<div class="card">
+		  				<div class="card-header">
+		  					<img class="card-img-top" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3428654413,50879492&fm=27&gp=0.jpg" alt="北京" />		  					
+		  				</div>
+		  				<div class="card-body">
+		  					<p class="card-text">北京</p>
+		  					<p class="card-text">sat.28 November 2018</p>
+		  					<button type="button" class="btn btn-danger" data-toggle = "modal" data-target="#myModal">购票</button>
+		  				</div>
+		  			</div>
+		  		</div>
+		  		<div class="col-md-4">
+		  			<div class="card">
+		  				<div class="card-header">
+		  					<img class="card-img-top" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3428654413,50879492&fm=27&gp=0.jpg" alt="上海" />	
+		  				</div>
+		  				<div class="card-body">
+		  					<p class="card-text">上海</p>
+		  					<p class="card-text">sat.28 November 2018</p>
+		  					<button type="button" class="btn btn-danger" data-toggle = "modal" data-target="#myModal">购票</button>
+		  				</div>
+		  			</div>
+		  		</div>
+		  		<div class="col-md-4">		  			
+		  			<div class="card">
+		  				<div class="card-header">
+		  					<img class="card-img-top" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3428654413,50879492&fm=27&gp=0.jpg"  alt="长沙"/>
+		  				</div>
+		  				<div class="card-body">
+		  					<p class="card-text">长沙</p>
+		  					<p class="card-text">sat.28 November 2018</p>
+		  					<button type="button" class="btn btn-danger" data-toggle = "modal" data-target="#myModal">购票</button>
+		  				</div>
+		  			</div>
+		  		</div>
+		  	</div>
+		  	<div class="modal fade" id="myModal" role="dialog">
+		  		<div class="modal-dialog">
+		  			<div class="modal-content">
+		  				<div class="modal-header">
+		  					<h4><i class="fas fa-lock">Tickets</i></h4>
+		  					<button type="button" class="close" data-dismiss = "modal">&times;</button>					
+		  				</div>
+		  				<div class="modal-body">
+		  					<form class="form">
+		  						<div class="form-group">
+		  							<label for="psw" class="float-left"><i class="fas fa-shopping-cart"></i>Tickets,梅人30元</label>
+		  							<input type="number" class="form-control" id="psw" placeholder="How many?" />
+		  						</div>
+		  						<div class="form-group">
+		  							<label for="email" class="float-left"><i class="fas fa-envelope"></i>邮件</label>
+		  							<input type="email" class="form-control" id="email" placeholder="Email" />
+		  						</div>
+		  						<button type="submit" class="btn btn-block btn-success">支付
+		  						   <i class="fas fa-check-square"></i>
+		  						</button>
+		  					</form>
+		  				</div>
+		  				<div class="modal-footer">
+		  					<button type="submit" class="btn btn-danger btn-block justify-content-center" data-dismiss = "modal">
+		  						<i class="fas fa-times"></i>取消
+		  					</button>
+		  					<!--<p>需要<a href="#">帮助？</a></p>-->
+		  				</div>
+		  			</div>
+		  		</div>
+		  	</div>
+		</div>
+		<!--第四屏-->
+		<div class="container text-center" id="contact" style="margin-top: 2rem;padding: 2rem 2rem;">
+			<h3 class="text-center text-danger"><strong>联系我们</strong></h3><br />
+			<p class="text-center text-secondary"><em>我们热爱我们的粉丝！</em></p>
+			<div class="row">
+				<div class="col-md-3 text-left">
+					<p><b class="text-danger">喜欢我们,就给我们留言吧</b></p>
+					<p><i class="fas fa-map-marker-alt"></i>&nbsp;地址:上海市浦东新区临港新城</p>
+					<p><i class="fas fa-mobile"></i>&nbsp;电话:15800721250</p>
+					<p><i class="fas fa-envelope"></i>邮件:chenjiajing.@163.com</p>
+				</div>
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-md-6 form-group">
+							<input class="form-control" id="inputname" name="inputname" placeholder="Name" required="required" />
+						</div>
+						<div class="col-md-6 form-group">
+							<input class="form-control" id="inputemail" name="inputeamil" placeholder="Email" required="required" />
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 form-group">
+							<textarea class="form-control" id="comments" name="comments" placeholder="Comments" rows="5"></textarea>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 form-group">
+							<button class="btn btn-danger  float-right" type="submit">发送</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--地图容器-->
+			<div style="width:100%;height:400px;border:#ccc solid 1px;" id="dituContent">
+				<!--百度地图放置处-->
+			</div>
+		</div>
+		<footer class="text-center">
+			<a class="btn  btn-danger" href="#myPage" data-toggle="tooltip" data-placement = "right" title="回到顶部">
+				<i class="fas fa-arrow-up"></i>回到顶部
+			</a>
+		</footer>
+		<!--插件-->
+		<script src="https://cdn.staticfile.org/jquery/3.3.1/jquery.min.js"></script>     
+        <script src="https://cdn.bootcss.com/popper.js/1.12.5/umd/popper.min.js"></script>
+        <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.2/js/bootstrap.min.js"></script>
+        <script>
+        	$(document).ready(function (){
+        		$('[data-toggle="tooltip"]').tooltip();
+        		$(".navbar ul li a,footer a[href='#myPage']").on("click",function(event){
+        			event.preventDefault();
+        			var hash=this.hash;
+        			//用animate()方法增加滚动效果
+        			$('html,body').animate({
+        				scrollTop:$(hash).offset().top
+        			},900,function(){
+        				window.location.hash=hash;
+        			});
+        		});
+        	})
+        </script>       
+	    <script type="text/javascript">
+           //创建和初始化地图函数：
+        function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMarker();//向地图中添加marker
+        }
+    
+        //创建地图函数：
+        function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(121.895979,30.885325);//定义一个中心点坐标
+        map.centerAndZoom(point,12);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+        }
+    
+        //地图事件设置函数：
+        function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+        }
+    
+        //地图控件添加函数：
+        function addMapControl(){
+        //向地图中添加缩放控件
+	    var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+	    map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+	    var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+	    map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+	    var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+	    map.addControl(ctrl_sca);
+        }
+    
+        //标注点数组
+        var markerArr = [{title:"上海海事大学",content:"我在上海海事大学等你啊",point:"121.916143|30.880326",isOpen:1,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
+		 ,{title:"我的标记",content:"我的备注",point:"121.530045|31.23723",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
+		 ];
+         //创建marker
+          function addMarker(){
+          for(var i=0;i<markerArr.length;i++){
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0,p1);
+			var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point,{icon:iconImg});
+			var iw = createInfoWindow(i);
+			var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+			marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                        borderColor:"#808080",
+                        color:"#333",
+                        cursor:"pointer"
+            });
+			
+			(function(){
+				var index = i;
+				var _iw = createInfoWindow(i);
+				var _marker = marker;
+				_marker.addEventListener("click",function(){
+				    this.openInfoWindow(_iw);
+			    });
+			    _iw.addEventListener("open",function(){
+				    _marker.getLabel().hide();
+			    })
+			    _iw.addEventListener("close",function(){
+				    _marker.getLabel().show();
+			    })
+				label.addEventListener("click",function(){
+				    _marker.openInfoWindow(_iw);
+			    })
+				if(!!json.isOpen){
+					label.hide();
+					_marker.openInfoWindow(_iw);
+				}
+			})()
+        }
+    }
+        //创建InfoWindow
+        function createInfoWindow(i){
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+        return iw;
+       }
+      //创建一个Icon
+    function createIcon(json){
+        var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+        return icon;
+    }
+    
+    initMap();//创建和初始化地图
+     </script>
+	</body>
+</html>
